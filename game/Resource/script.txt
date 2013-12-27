@@ -1,0 +1,45 @@
+SPRITE exit_normal{
+filename= "Texture/buttons_exit.png"
+position= "200,200"
+rect= "0,0,200,50"
+}
+
+SPRITE exit_pressed : exit_normal{
+rect= "0,50,200,50"
+}
+
+SPRITE exit_hover : exit_normal{
+rect = "0,100,200,50"
+}
+
+SPRITE start_normal{
+filename= "Texture/buttons_start.png"
+position= "200,200"
+rect= "0,0,200,50"
+}
+
+SPRITE start_pressed : start_normal{
+rect= "0,50,200,50"
+}
+
+SPRITE start_hover : start_normal{
+rect= "0,100,200,50"
+}
+
+SPRITE bg{
+filename= "Texture/background.jpg"
+rect= "0,0,100,100"
+}
+
+TEXT labl1{
+font= "inf"
+text= "Labelfirst"
+size= "10"
+color= "0,0,0,255"
+}
+
+INFOBAR ibar{
+rect= "40,40,100,100"
+background= "bg"
+text1= "labl1, left, normal, 1"
+}
